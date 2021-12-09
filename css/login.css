@@ -70,6 +70,11 @@ header a {
 }
 
 .nav-item {
-  margin: 0.5cm;
+  margin: 0.3cm;
+}
+
+#cart {
+  color: green;
+  font-size: 35px;
 }
 /*# sourceMappingURL=login.css.map */
