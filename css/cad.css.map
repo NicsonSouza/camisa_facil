@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,KAAK;CACjB;;AAED,AAAA,CAAC,CAAA;EACC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;CACb",
-    "sources": [
-        "cad.scss"
-    ],
-    "names": [],
-    "file": "cad.css"
-}

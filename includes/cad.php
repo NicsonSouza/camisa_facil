@@ -1,108 +1,15 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Cadastro</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
-
-    <!-- font awersome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/cad.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
+<?php
+include 'head.php';
+include 'navbar.php';
+?>
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
   </head>
   <body class="bg-light">
-    
-            <a class="nav-link active" aria-current="page" href="index.html">Pagina inicial</a>
 
 <div class="container">
   <main>
-    <div class="py-5 text-center">
-      <i class="fas fa-tshirt" id="shirt"></i>
-      <!-- <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
-      <h2>Amazing Shirt</h2>
-      <!-- <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p> -->
-    </div>
-
-    <!-- <div class="row g-5"> 
-      <div class="col-md-5 col-lg-4 order-md-last">
-        <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Sua compra</span>
-          <span class="badge bg-primary rounded-pill">3</span>
-        </h4>
-        <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Nome do produto</h6>
-              <small class="text-muted">descrição</small>
-            </div>
-            <span class="text-muted">$12</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Segundo produto</h6>
-              <small class="text-muted">descrição</small>
-            </div>
-            <span class="text-muted">$8</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Terceiro Produto</h6>
-              <small class="text-muted">descrição</small>
-            </div>
-            <span class="text-muted">$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between bg-light">
-            <div class="text-success">
-              <h6 class="my-0">Código Promocional</h6>
-              <small>EXEMPLOCOD</small>
-            </div>
-            <span class="text-success">−$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between">
-            <span>Total</span>
-            <strong>$20</strong>
-          </li>
-        </ul>
-
-        <form class="card p-2">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
-            <button type="submit" class="btn btn-secondary">Redeem</button>
-          </div>
-        </form>
-      </div>
-      <div class="col-md-7 col-lg-8">-->
-        <h4 class="mb-3">Cadastro</h4>
+        <h4 class="h1 mb-3 text-center mt-5">Cadastro</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
@@ -268,9 +175,10 @@
   </footer>
 </div>
 
+  <?php
+    include '../includes/footer.php';
+  ?>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-      <script src="form-validation.js"></script>
+      <script src="../js/form-validation.js"></script>
   </body>
 </html>
