@@ -23,7 +23,7 @@
           <a class="nav-link" href="login.php">Adulto</a>
         </li>
         <li class="nav-item  mx-5">
-          <a class="nav-link" href="#"><i class="fas fa-cart-plus fs-3"></i></a>
+          <a class="nav-link" href="carrinho.php"><i class="fas fa-cart-plus fs-3"></i></a>
         </li>
       </ul>
       <form class="d-flex">
